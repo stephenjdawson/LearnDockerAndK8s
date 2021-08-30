@@ -13,6 +13,7 @@ Docker
 - docker build -f Dockerfile.dev . (build a docker image from a file not called "Dockerfile")
 - docker build -t stephenjdawson/react:latest -f Dockerfile.dev . (example of tagging and referring to different Dockerfile)
 - docker run -p 3000:3000 -v /home/node/app/node_modules -v $(pwd):/home/node/app stephenjdawson/react (example of volume mounting - first part specifies that volume remains unchanged in container, second -v maps to volume outside of container on local fs)
+- docker push (push your image to an online repo): https://docs.docker.com/engine/reference/commandline/push/ : docker push stephenjdawson/prototypes:tagname
 
 
 Docker-Compose
