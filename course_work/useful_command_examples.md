@@ -22,3 +22,6 @@ Docker-Compose
 - docker-compose down (shuts down containers based on docker-compose.yml)
 - docker-compose ps (list running services that are related to docker-compose.yml)
 - 
+
+Kubernetes
+- kubectl apply -f filename.yaml (apply config files into cluster)
